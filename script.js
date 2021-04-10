@@ -42,7 +42,7 @@ function reCreateGrid(size) {
   gridSquares.forEach((gridSquare) => {
     gridSquare.remove();
   })
-  createGrid(parseInt(size));
+  createGrid(Math.round(size));
 }
 
 function getRandomColor() {
